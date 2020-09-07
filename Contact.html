@@ -7,14 +7,14 @@
     <!-- background image to body -->
     <style>
         body {
-          background-image: url("images.jpg");
-          background-position: center center;
-          background-repeat: no-repeat;
-          background-size: cover;
-          height: 100%;
-          background-attachment: fixed;
+            background-image: url("images.jpg");
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100%;
+            background-attachment: fixed;
         }
-      </style>
+    </style>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -24,7 +24,7 @@
 <body>
 
 
-    <!-- Add a navbar with title and links to all Aboutme, Portfolio, and Contact pages. When screen shrinks, links change to inside 'hamburger' icon-->
+    <!-- Add a navbar with title and links to all Aboutme, Portfolio, and Contact pages. When screen shrinks, links change to inside 'hamburger' icon. The navbar will bold the current page you are on.-->
     <nav class="navbar navbar-expand-lg navbar-rgb(34, 49, 3) bg-rgb(34, 49, 3)">
         <a class="navbar-brand" href="#">Evan Kirkland</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -40,9 +40,35 @@
             </div>
         </div>
     </nav>
-    <!-- footer with @copyright  -->
 
+    <!-- Will have a form with a header of 'Contact' using a form where you can enter your name and e-mail with a message and send a message to my personal e-mail. -->
+    <div class="row">
+        <div class="col-4">
+            <form>
+                <div class="form-group">
+                    <label for="formGroupExampleInput">Name</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="First and Last">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput2">E-mail</label>
+                    <input type="text" class="form-control" id="contact E-mail" placeholder="Contact E-mail">
+                </div>
+                <div class="messagebox">
+                    <label for="formGroupExampleInput">Message</label>
+                    <input type="text" class="form-control"
+                        id="contact E-mail" placeholder="Message">
+                    <button type="submit" class="btn btn-primary mb-2">Submit</button>
+
+            </form>
+        </div>
+    </div>
+
+
+
+    <!-- footer with @copyright  -->
     <footer>©Copyright</footer>
+
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
