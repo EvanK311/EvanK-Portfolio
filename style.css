@@ -1,4 +1,7 @@
 
+.span {
+    font-weight: bold;
+}
 
 .container {
     background-color: rgb(81, 88, 81);
@@ -39,6 +42,13 @@ hr {
    height: 20%vh;
 }
 
+.btn {
+    color: salmon;
+}
+
+.form {
+    margin-top: 300px;
+}
 
 footer {
     position: fixed;
