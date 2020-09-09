@@ -25,21 +25,28 @@
 
 
     <!-- Add a navbar with title and links to all Aboutme, Portfolio, and Contact pages. When screen shrinks, links change to inside 'hamburger' icon. The navbar will bold the current page you are on.-->
-    <nav class="navbar navbar-expand-lg navbar-rgb(34, 49, 3) bg-rgb(34, 49, 3)">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Evan Kirkland</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-link" href="Index.html">About</a>
-                <span class="span"><a class="nav-link" href="Contact.html">Contact</a></span>
-                <a class="nav-link" href="Portfolio.html">Portfolio</a>
-            </div>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">About Me<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+          </ul>
+          <span class="navbar-text">
+          </span>
         </div>
-    </nav>
+      </nav>
 
     <!-- Will have a form with a header of 'Contact' using a form where you can enter your name and e-mail with a message and send a message to my personal e-mail. -->
 

@@ -26,24 +26,43 @@
     <!-- background image to body -->
 
     <!-- Add a navbar with title and links to all Aboutme, Portfolio, and Contact pages. When screen shrinks, links change to inside 'hamburger' icon. -->
-    <nav class="navbar navbar-expand-lg navbar-rgb(34, 49, 3) bg-rgb(34, 49, 3)">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Evan Kirkland</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-link" href="Index.html">About</a>
-                <a class="nav-link" href="Contact.html">Contact</a>
-                <span class="span"><a class="nav-link" href="Portfolio.html">Portfolio</a></span>
-                
-            </div>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">About Me<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                </li>
+            </ul>
+            <span class="navbar-text">
+            </span>
         </div>
     </nav>
 
     <!-- 5 pictures (350x350) left aligned in a container titled 'portfolio' 2 to a row with one alone at bottom. at smaller screen size, images stack.-->
+    <div class="container flex left">
+        <row class="row">
+            <column class="column-md-6 offset-lg-6 flex left">
+                <img src="https://placekitten.com/200/300" alt="">
+                <img src="https://placekitten.com/200/300" alt="">
+                <img src="https://placekitten.com/200/300" alt="">
+                <column class="column-md-6"> 
+                    <img src="https://placekitten.com/200/300" alt="">
+                    <img src="https://placekitten.com/200/300" alt="">
+                </column>
+            </column>
+        </row>
+    </div>
 
     <!-- footer with @copyright  -->
 
