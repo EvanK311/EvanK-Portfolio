@@ -4,13 +4,10 @@
 }
 
 .container {
+    margin-top: 15px;
     background-color: rgb(81, 88, 81);
     padding:30px;
-    float: left;
     margin-left: 50px;
-    margin-top: 40px;
-    width: 55vw;
-    height: 65vh;
 }
 
 h1 {
@@ -23,20 +20,14 @@ hr {
     border-color: white;
 }
 
-
-
-.pabout {
-    float: left;
-    text-align: justify;
-    
+.aboutpic{
+   float:left;
+   margin: 15px;
 }
 
-.aboutmepic {
-    margin-left: -25px;
-    float: left;
-    padding: 30px;
-    position: relative;
-}
+/* .aboutmetext {
+   
+} */
 
 .messagebox {
    height: 20%vh;
@@ -46,9 +37,7 @@ hr {
     color: salmon;
 }
 
-.form {
-    margin-top: 300px;
-}
+
 
 footer {
     position: fixed;
