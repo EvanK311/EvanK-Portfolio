@@ -13,7 +13,7 @@ About Me(index.html) -
 ![About Me](AboutMePortfolio.PNG)
 
 Portfolio(Portfolio.html) -
-![Portfolio](Portfoliopage.png)
+![Portfolio](Portfoliopage.PNG)
 
 Contact(Contact.html) -
-![Contact](Contact.png)
+![Contact](Contact.PNG)
