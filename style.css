@@ -48,11 +48,15 @@ hr {
 }
 
 .img-fluid {
+    
     padding: 10px;
     margin: auto;
     flex:left;
-    
+}
 
+.PortPic {
+    max-width: 350px;
+    max-height: 350px;
 }
 
 footer {
@@ -69,4 +73,11 @@ footer {
     border-top-width: 4px;
     border-top-color: rgb(59, 179, 179);
     color: gray;
+}
+
+@media only screen and (max-width: 1200px) {
+    .Portpic {
+        max-width: 200px;
+        max-height: 200px;
+    }
 }
