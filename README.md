@@ -10,7 +10,7 @@ Link to Page -
 https://evank311.github.io/EvanK-index.html/
 
 About Me(index.html) -
-![About Me](AboutMePortfolio.png)
+![About Me](AboutMePortfolio.PNG)
 
 Portfolio(Portfolio.html) -
 ![Portfolio](Portfoliopage.png)
