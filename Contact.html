@@ -24,7 +24,7 @@
 <body>
 
 
-  <!-- Add a navbar with title and links to all Aboutme, Portfolio, and Contact pages. When screen shrinks, links change to inside 'hamburger' icon. The navbar will bold the current page you are on.-->
+  <!-- Navbar that collapses into hamburger icon selection and links to other pages -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="https://www.linkedin.com/in/evan-kirkland-297254158/">Evan Kirkland</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
@@ -37,19 +37,17 @@
           <a class="nav-link" href="index.html">About Me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Contact.html">Contact</a>
+         <a class="nav-link" href="Contact.html">Contact</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="Portfolio.html">Portfolio</a>
       </ul>
-      <span class="navbar-text">
+      <span class="navbar-text"><a href = "pics/EvanKresume.pdf">My Resume</a>
       </span>
     </div>
   </nav>
 
-  <!-- Will have a form with a header of 'Contact' using a form where you can enter your name and e-mail with a message and send a message to my personal e-mail. -->
-
-  <!-- for 9/8 to look at. form box needs margin work and and larger box for message. add space between 'Submit' button and message box. -->
+    <!-- container holding section to input e-mail and contact me directly -->
   <div class="container">
     <row class="row">
       <column>
@@ -70,7 +68,7 @@
             <div class="messagebox">
               <label for="formGroupExampleInput">Message</label>
               <input type="text" class="form-control" id="contact E-mail" placeholder="Message">
-              <button type="submit" class="btn btn-primary mb-2">Submit</button>
+              <button type="submit" class="btn btn-dark mb-2">Submit</button>
 
           </form>
         </div>
@@ -80,9 +78,9 @@
   </div>
 
 
-
-  <!-- footer with @copyright  -->
-  <footer>©Copyright</footer>
+<!-- footer with github and LinkedIn info -->
+  
+  <footer><a href="https://github.com/EvanK311">Github |</a><a href="https://www.linkedin.com/in/evan-kirkland-297254158/">| LinkedIn</a></footer>
 
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
